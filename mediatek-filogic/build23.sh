@@ -78,7 +78,24 @@ PACKAGES="$PACKAGES ds-lite"
 PACKAGES="$PACKAGES kmod-ip6-tunnel"
 PACKAGES="$PACKAGES kmod-iptunnel6"
 
+# 去广告adghome
+PACKAGES="$PACKAGES luci-app-adguardhome"
+
+# VPN
+PACKAGES="$PACKAGES luci-app-tailscale luci-i18n-tailscale-zh-cn"
+# 分区扩容 by sirpdboy 
+PACKAGES="$PACKAGES luci-app-partexp luci-i18n-partexp-zh-cn"
+
+# MosDNS
+PACKAGES="$PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
+# Turbo ACC 网络加速
 PACKAGES="$PACKAGES luci-app-turboacc"
+
+# 应用过滤 openappfilter.com
+PACKAGES="$PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+
+# Lucky大吉 
+PACKAGES="$PACKAGES luci-app-lucky lucky"
 
 
 
