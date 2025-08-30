@@ -78,6 +78,7 @@ PACKAGES="$PACKAGES ds-lite"
 PACKAGES="$PACKAGES kmod-ip6-tunnel"
 PACKAGES="$PACKAGES kmod-iptunnel6"
 
+PACKAGES="$PACKAGES luci-app-turboacc"
 
 
 
