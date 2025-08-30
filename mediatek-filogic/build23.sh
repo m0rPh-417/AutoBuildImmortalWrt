@@ -70,6 +70,17 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-autoreboot"
+PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
+
+PACKAGES="$PACKAGES ds-lite"
+PACKAGES="$PACKAGES kmod-ip6-tunnel"
+PACKAGES="$PACKAGES kmod-iptunnel6"
+
+
+
+
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
